@@ -19,33 +19,44 @@
       />
 
       <title>Significa</title>
-
-      <!-- ### Darkmode ### -->
-      <style>
-         body {
-            background-color: darkgrey;
-         }
-      </style>
    </head>
    <body>
       <!-- ### Header begins here ### -->
       <header>
-         <img src="./images/logo.svg" alt="Significa-logo" />
-
          <!-- ### Navbar begins here ### -->
-         <nav>
-            <ul>
-               <li><a href="#">Showcase</a></li>
-               <li><a href="#">Services</a></li>
-               <li><a href="#">About</a></li>
-               <li><a href="#">Careers</a></li>
-               <li><a href="#">Labs</a></li>
-               <li><a href="#">Contact</a></li>
-            </ul>
+         <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="#"
+                  ><img src="./images/logo.svg" alt="Significa-logo"
+               /></a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                     <a class="nav-link active" aria-current="page" href="#"
+                        >Showcase</a
+                     >
+                     <a class="nav-link" href="#">Services</a>
+                     <a class="nav-link" href="#">About</a>
+                     <a class="nav-link" href="#">Careers</a>
+                     <a class="nav-link" href="#">Labs</a>
+                     <a class="nav-link" href="#">Contact</a>
+                  </div>
+               </div>
+            </div>
          </nav>
 
          <!-- ### Hero section begins here ### -->
-         <div id="hero-section">
+         <div id="hero-section" class="container-fluid">
             <h1>Your go-to digital agency</h1>
             <div id="brand-info">
                Significa is a digital design-led agency mainly focused on
@@ -55,151 +66,229 @@
       </header>
       <main>
          <!-- ### Features section begins here ### -->
-         <section id="features">
-            <article>
-               <img src="./images/1.png" alt="Oopsie-food-app" />
-               <p>Oopsie for users — Your favourite food, one click away!</p>
-               <p>
-                  Business Analysis, Product Management, Consultancy & 5 others
-               </p>
-            </article>
-            <article>
-               <img src="./images/2.png" alt="Opennode-Bitcoin-app" />
-               <p>Opennode — Bitcoin, for everyday.</p>
-               <p>UI/UX, Front End, Front End</p>
-            </article>
-            <article>
-               <img src="./images/3.png" alt="AKASHA-Open-Systems" />
-               <p>AKASHA — Open systems to expand our collective mind.</p>
-               <p>UI/UX, Front End, Illustration</p>
-            </article>
+         <section id="features" class="container-fluid">
+            <div class="row">
+               <div class="col-4">
+                  <article>
+                     <img
+                        src="./images/2.png"
+                        class="img-fluid"
+                        alt="Oopsie-food-app"
+                     />
+                     <p>
+                        Oopsie for users — Your favourite food, one click away!
+                     </p>
+                     <p>
+                        Business Analysis, Product Management, Consultancy & 5
+                        others
+                     </p>
+                  </article>
+               </div>
+               <div class="col-4">
+                  <article>
+                     <img
+                        src="./images/1.png"
+                        class="img-fluid"
+                        alt="Opennode-Bitcoin-app"
+                     />
+                     <p>Opennode — Bitcoin, for everyday.</p>
+                     <p>UI/UX, Front End, Front End</p>
+                  </article>
+               </div>
+               <div class="col-4">
+                  <article>
+                     <img
+                        src="./images/3.png"
+                        class="img-fluid"
+                        alt="AKASHA-Open-Systems"
+                     />
+                     <p>AKASHA — Open systems to expand our collective mind.</p>
+                     <p>UI/UX, Front End, Illustration</p>
+                  </article>
+               </div>
+            </div>
          </section>
 
          <!-- ### Services section begins here ### -->
-         <section id="services">
-            <h3>We build digital products</h3>
-            <div>
-               Having a design-led approach to what we do defines who we are. We
-               take on products from inception to launch, from business model to
-               people's pocket, from wireframe to continuous deployment.
+         <section id="services" class="container-fluid">
+            <div class="row">
+               <div class="col">
+                  <h3>We build digital products</h3>
+                  <div>
+                     Having a design-led approach to what we do defines who we
+                     are. We take on products from inception to launch, from
+                     business model to people's pocket, from wireframe to
+                     continuous deployment.
+                  </div>
+               </div>
             </div>
-            <article>
-               <h4>Strategy</h4>
-               <ul>
-                  <li>UX research</li>
-                  <li>Business strategy</li>
-                  <li>Brand strategy</li>
-                  <li>Product strategy</li>
-                  <li>Product management</li>
-               </ul>
-            </article>
-            <article>
-               <h4>Product design</h4>
-               <ul>
-                  <li>User experience</li>
-                  <li>User interface</li>
-                  <li>Brand development</li>
-                  <li>Illustration</li>
-                  <li>Motion & Video</li>
-               </ul>
-            </article>
-            <article>
-               <h4>Development</h4>
-               <ul>
-                  <li>Front-end engineering</li>
-                  <li>Web-app development</li>
-                  <li>Native app development</li>
-                  <li>Development operations</li>
-               </ul>
-            </article>
-            <div id="service-link"><a href="#">View services</a></div>
+            <div class="row">
+               <div class="col">
+                  <article>
+                     <h4>Strategy</h4>
+                     <ul>
+                        <li>UX research</li>
+                        <li>Business strategy</li>
+                        <li>Brand strategy</li>
+                        <li>Product strategy</li>
+                        <li>Product management</li>
+                     </ul>
+                  </article>
+               </div>
+               <div class="col">
+                  <article>
+                     <h4>Product design</h4>
+                     <ul>
+                        <li>User experience</li>
+                        <li>User interface</li>
+                        <li>Brand development</li>
+                        <li>Illustration</li>
+                        <li>Motion & Video</li>
+                     </ul>
+                  </article>
+                  <div id="service-link"><a href="#">View services</a></div>
+               </div>
+               <div class="col">
+                  <article>
+                     <h4>Development</h4>
+                     <ul>
+                        <li>Front-end engineering</li>
+                        <li>Web-app development</li>
+                        <li>Native app development</li>
+                        <li>Development operations</li>
+                     </ul>
+                  </article>
+               </div>
+            </div>
          </section>
 
          <!-- ### News section begins here ### -->
-         <section id="news-section">
-            <h3>What's new on Significa Labs</h3>
-            <article>
-               <p>
-                  Automating releases for UI Kits — How to automate release logs
-                  and builds for your style guides
-               </p>
-               <p>Tutorial on Medium</p>
-            </article>
-            <article>
-               <p>
-                  An iceberg sank the Titanic — But what’s that got to do with
-                  text hierarchy?
-               </p>
-               <p>Article on Medium</p>
-            </article>
-            <article>
-               <p>
-                  On creating synergies — Sharing without compromising our
-                  identity
-               </p>
-               <p>Article on Medium</p>
-            </article>
-            <div id="news-link"><a href="#">Enter the Lab</a></div>
+         <section id="news-section" class="container-fluid bg-dark text-light">
+            <div class="row">
+               <div class="col"><h3>What's new on Significa Labs</h3></div>
+               <div class="col">
+                  <article>
+                     <p>
+                        Automating releases for UI Kits — How to automate
+                        release logs and builds for your style guides
+                     </p>
+                     <p>Tutorial on Medium</p>
+                  </article>
+                  <article>
+                     <p>
+                        An iceberg sank the Titanic — But what’s that got to do
+                        with text hierarchy?
+                     </p>
+                     <p>Article on Medium</p>
+                  </article>
+                  <article>
+                     <p>
+                        On creating synergies — Sharing without compromising our
+                        identity
+                     </p>
+                     <p>Article on Medium</p>
+                  </article>
+                  <div id="news-link"><a href="#">Enter the Lab</a></div>
+               </div>
+            </div>
          </section>
 
          <!-- ### Career section begins here ### -->
-         <section id="career-section">
-            <h3>Drop by, we're hiring.</h3>
-            <div>
-               We are an open-minded, open-hearted team that loves the thrill of
-               creating exciting new projects. Drop us a line if you’re
-               passionate and talented to do everything you set your mind to.
+         <section id="career-section" class="container-fluid">
+            <div class="row">
+               <div class="col"><h3>Drop by, we're hiring.</h3></div>
+               <div class="col">
+                  <div>
+                     We are an open-minded, open-hearted team that loves the
+                     thrill of creating exciting new projects. Drop us a line if
+                     you’re passionate and talented to do everything you set
+                     your mind to.
+                  </div>
+                  <div id="career-link"><a href="#">View careers</a></div>
+               </div>
             </div>
-            <div id="career-link"><a href="#">View careers</a></div>
-            <img src="./images/4.png" alt="Workspace-1" />
-            <img src="./images/5.png" alt="Workspace-1" />
-            <img src="./images/6.png" alt="Workspace-1" />
+            <div class="row">
+               <div class="col-4">
+                  <img
+                     src="./images/4.png"
+                     class="img-fluid"
+                     alt="Workspace-1"
+                  />
+               </div>
+               <div class="col-4">
+                  <img
+                     src="./images/5.png"
+                     class="img-fluid"
+                     alt="Workspace-1"
+                  />
+               </div>
+               <div class="col-4">
+                  <img
+                     src="./images/6.png"
+                     class="img-fluid"
+                     alt="Workspace-1"
+                  />
+               </div>
+            </div>
          </section>
       </main>
 
       <!-- ### Footer begins here ### -->
-      <footer>
-         <div id="copyright">
-            <h5>O</h5>
-            <ul>
-               <li>Legal © 2019</li>
-            </ul>
-         </div>
-         <div id="contact">
-            <h5>Say</h5>
-            <ul>
-               <li>hello@significa.co</li>
-               <li>(+351) 226 001 751</li>
-            </ul>
-         </div>
-         <div id="links">
-            <h5>Links</h5>
-            <ul>
-               <li>Home</li>
-               <li>Showcase</li>
-               <li>Services</li>
-               <li>About</li>
-               <li>Careers</li>
-               <li>Labs</li>
-               <li>Contact</li>
-            </ul>
-         </div>
-         <div id="network">
-            <h5>Network</h5>
-            <ul>
-               <li>Coletiv</li>
-               <li>Adamant</li>
-            </ul>
-         </div>
-         <div id="social-media">
-            <h5>Follow us</h5>
-            <ul>
-               <li>GitHub</li>
-               <li>Dribbble</li>
-               <li>Behance</li>
-               <li>Medium</li>
-               <li>Instagram</li>
-            </ul>
+      <footer class="container-fluid">
+         <div class="row">
+            <div class="col">
+               <div id="copyright">
+                  <h5>O</h5>
+                  <ul>
+                     <li>Legal © 2019</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col"></div>
+            <div class="col">
+               <div id="contact">
+                  <h5>Say</h5>
+                  <ul>
+                     <li>hello@significa.co</li>
+                     <li>(+351) 226 001 751</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col">
+               <div id="links">
+                  <h5>Links</h5>
+                  <ul>
+                     <li>Home</li>
+                     <li>Showcase</li>
+                     <li>Services</li>
+                     <li>About</li>
+                     <li>Careers</li>
+                     <li>Labs</li>
+                     <li>Contact</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col">
+               <div id="network">
+                  <h5>Network</h5>
+                  <ul>
+                     <li>Coletiv</li>
+                     <li>Adamant</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col">
+               <div id="social-media">
+                  <h5>Follow us</h5>
+                  <ul>
+                     <li>GitHub</li>
+                     <li>Dribbble</li>
+                     <li>Behance</li>
+                     <li>Medium</li>
+                     <li>Instagram</li>
+                  </ul>
+               </div>
+            </div>
          </div>
       </footer>
    </body>
