@@ -1,1 +1,27 @@
-/* Your own custom styles should be here */
+/* ### Add custom font 'Poppins' from google fonts ### */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+   font-family: 'Poppins', sans-serif;
+}
+
+/* ### Add custom colors to links ### */
+
+.blue-link:hover {
+   color: blue !important;
+}
+
+.white-link:hover {
+   color: white !important;
+}
+
+/* ### Add hover zoom effect to images ### */
+
+.zoom {
+   transition: transform 0.4s ease;
+}
+
+.zoom:hover {
+   transform: scale(1.05);
+}

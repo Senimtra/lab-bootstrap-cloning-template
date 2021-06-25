@@ -13,6 +13,9 @@
       <!-- ### Link FontAwesome 5.15.3 CDN ### -->
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
 
+      <!-- ### Link own CSS stylesheet ### -->
+      <link rel="stylesheet" href="./style/index.css" />
+
       <title>Significa</title>
    </head>
    <body class="">
@@ -27,12 +30,12 @@
                </button>
                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
-                     <a class="nav-link me-2 active" aria-current="page" href="#">Showcase</a>
-                     <a class="nav-link me-2" href="#">Services</a>
-                     <a class="nav-link me-2" href="#">About</a>
-                     <a class="nav-link me-2" href="#">Careers</a>
-                     <a class="nav-link me-2" href="#">Labs</a>
-                     <a class="nav-link" href="#">Contact</a>
+                     <a class="nav-link blue-link me-2 active link-danger" aria-current="page" href="#">Showcase</a>
+                     <a class="nav-link blue-link me-2 link-danger" href="#">Services</a>
+                     <a class="nav-link blue-link me-2" href="#">About</a>
+                     <a class="nav-link blue-link me-2" href="#">Careers</a>
+                     <a class="nav-link blue-link me-2" href="#">Labs</a>
+                     <a class="nav-link blue-link" href="#">Contact</a>
                   </div>
                </div>
             </div>
@@ -61,21 +64,21 @@
             <div class="row">
                <div class="col-12 col-sm-6 col-md-4">
                   <article>
-                     <img src="./images/2.png" class="img-fluid shadow" alt="Oopsie-food-app" />
+                     <img src="./images/2.png" class="img-fluid shadow zoom" alt="Oopsie-food-app" />
                      <div class="mt-3 mb-2 fs-5">Oopsie for users — Your favourite food, one click away!</div>
                      <div>Business Analysis, Product Management, Consultancy & 5 others</div>
                   </article>
                </div>
                <div class="col-12 col-sm-6 col-md-4 pt-4 pt-md-0">
                   <article>
-                     <img src="./images/1.png" class="img-fluid shadow" alt="Opennode-Bitcoin-app" />
+                     <img src="./images/1.png" class="img-fluid shadow zoom" alt="Opennode-Bitcoin-app" />
                      <div class="mt-3 mb-2 fs-5">Opennode — Bitcoin, for everyday.</div>
                      <div>UI/UX, Front End, Front End</div>
                   </article>
                </div>
                <div class="col-4 d-none d-md-block">
                   <article>
-                     <img src="./images/3.png" class="img-fluid shadow" alt="AKASHA-Open-Systems" />
+                     <img src="./images/3.png" class="img-fluid shadow zoom" alt="AKASHA-Open-Systems" />
                      <div class="mt-3 mb-2 fs-5">AKASHA — Open systems to expand our collective mind.</div>
                      <div>UI/UX, Front End, Illustration</div>
                   </article>
@@ -199,15 +202,15 @@
                      <div class="pe-3 ps-1 pb-4 pt-4 pt-md-0 pb-md-5">
                         <article>
                            <p class="fs-5">Automating releases for UI Kits — How to automate release logs and builds for your style guides</p>
-                           <div class="pb-4"><a href="#" class="text-decoration-none text-light">Tutorial on Medium</a></div>
+                           <div class="pb-4"><a href="#" class="text-decoration-none text-secondary white-link">Tutorial on Medium</a></div>
                         </article>
                         <article>
                            <p class="fs-5">An iceberg sank the Titanic — But what’s that got to do with text hierarchy?</p>
-                           <div class="pb-4"><a href="#" class="text-decoration-none text-light">Article on Medium</a></div>
+                           <div class="pb-4"><a href="#" class="text-decoration-none text-secondary white-link">Article on Medium</a></div>
                         </article>
                         <article>
                            <p class="fs-5">On creating synergies — Sharing without compromising our identity</p>
-                           <div class="pb-4"><a href="#" class="text-decoration-none text-light">Article on Medium</a></div>
+                           <div class="pb-4"><a href="#" class="text-decoration-none text-secondary white-link">Article on Medium</a></div>
                         </article>
                      </div>
                   </div>
@@ -254,9 +257,9 @@
             <div class="row">
                <div class="col-4 col-md-2 d-flex justify-content-center justif-content-md-start">
                   <div id="copyright">
-                     <div class="small">O</div>
+                     <div class="fs-5">O</div>
                      <ul class="list-unstyled pt-3">
-                        <li class="small"><u>Legal</u> © 2019</li>
+                        <li class="small"><a class="blue-link text-dark" href="#">Legal</a> © 2019</li>
                      </ul>
                   </div>
                </div>
@@ -265,8 +268,8 @@
                   <div id="contact">
                      <div class="small">Say</div>
                      <ul class="list-unstyled pt-3">
-                        <li class="small">hello@significa.co</li>
-                        <li class="small">(+351) 226 001 751</li>
+                        <li class="small"><a class="blue-link text-dark text-decoration-none" href="#">hello@significa.co</a></li>
+                        <li class="small"><a class="blue-link text-dark text-decoration-none" href="#">(+351) 226 001 751</a></li>
                      </ul>
                   </div>
                </div>
@@ -274,13 +277,13 @@
                   <div id="links pe-5">
                      <div class="small d-none d-md-block">Links</div>
                      <ul class="list-unstyled pt-3 d-flex flex-row flex-md-column">
-                        <li class="small me-2 ms-2 me-md-0 ms-md-0">Home</li>
-                        <li class="small me-2 ms-2 me-md-0 ms-md-0">Showcase</li>
-                        <li class="small me-2 ms-2 me-md-0 ms-md-0">Services</li>
-                        <li class="small me-2 ms-2 me-md-0 ms-md-0">About</li>
-                        <li class="small me-2 ms-2 me-md-0 ms-md-0">Careers</li>
-                        <li class="small me-2 ms-2 me-md-0 ms-md-0">Labs</li>
-                        <li class="small me-2 ms-2 me-md-0 ms-md-0">Contact</li>
+                        <li class="small me-2 ms-2 me-md-0 ms-md-0"><a class="blue-link text-dark text-decoration-none" href="#">Home</a></li>
+                        <li class="small me-2 ms-2 me-md-0 ms-md-0"><a class="blue-link text-dark text-decoration-none" href="#">Showcase</a></li>
+                        <li class="small me-2 ms-2 me-md-0 ms-md-0"><a class="blue-link text-dark text-decoration-none" href="#">Services</a></li>
+                        <li class="small me-2 ms-2 me-md-0 ms-md-0"><a class="blue-link text-dark text-decoration-none" href="#">About</a></li>
+                        <li class="small me-2 ms-2 me-md-0 ms-md-0"><a class="blue-link text-dark text-decoration-none" href="#">Careers</a></li>
+                        <li class="small me-2 ms-2 me-md-0 ms-md-0"><a class="blue-link text-dark text-decoration-none" href="#">Labs</a></li>
+                        <li class="small me-2 ms-2 me-md-0 ms-md-0"><a class="blue-link text-dark text-decoration-none" href="#">Contact</a></li>
                      </ul>
                   </div>
                </div>
@@ -288,8 +291,8 @@
                   <div id="network">
                      <div class="small">Network</div>
                      <ul class="list-unstyled pt-3">
-                        <li class="small">Coletiv</li>
-                        <li class="small">Adamant</li>
+                        <li class="small"><a class="blue-link text-dark text-decoration-none" href="#">Coletiv</a></li>
+                        <li class="small"><a class="blue-link text-dark text-decoration-none" href="#">Adamant</a></li>
                      </ul>
                   </div>
                </div>
@@ -297,11 +300,11 @@
                   <div id="social-media">
                      <div class="small d-none d-md-block">Follow us</div>
                      <ul class="list-unstyled d-flex pt-3">
-                        <li><i class="fab fa-github me-2"></i></li>
-                        <li><i class="fab fa-dribbble me-2"></i></li>
-                        <li><i class="fab fa-behance me-2"></i></li>
-                        <li><i class="fab fa-medium me-2"></i></li>
-                        <li><i class="fab fa-instagram me-2"></i></li>
+                        <li><a href="#"><i class="text-dark fab fa-github me-2"></a></i></li>
+                        <li><a href="#"><i class="text-dark fab fa-dribbble me-2"></a></i></li>
+                        <li><a href="#"><i class="text-dark fab fa-behance me-2"></a></i></li>
+                        <li><a href="#"><i class="text-dark fab fa-medium me-2"></a></i></li>
+                        <li><a href="#"><i class="text-dark fab fa-instagram me-2"></a></i></li>
                      </ul>
                   </div>
                </div>
